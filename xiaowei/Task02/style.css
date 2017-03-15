@@ -1,0 +1,192 @@
+/*reset*/
+body,h2,h3,h4,p,ul,ol{
+	margin:0;
+	padding:0;
+}
+/*body*/
+body{
+	width:1282px;
+	margin: 0 auto;
+	font-family: "SimHei";
+}
+/*header*/
+header{
+	height: 60px;
+	background-color: #333333;
+}
+nav{
+	float: right;
+	margin-right: 20px;
+}
+nav li{
+	float: left;
+	margin-left: 22px;
+	line-height: 60px;
+}
+nav a{
+	height: 60px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+nav a:visited{
+	color: #8c94a1;
+}
+nav a:hover{
+	color: #3061b1;
+}
+nav a:active{
+	color: #e51235;
+}
+header img{
+	float: left;
+	margin-left: 36px;
+}
+/*main*/
+#main{
+	padding: 20px;
+	background-color: #dedede;
+}
+article,aside{
+	width: 1200px;
+	border-right: 2px solid #959090;
+	border-bottom: 2px solid #959090;
+	background-color: #fff;
+}
+article{
+	padding: 40px 20px;
+	margin-bottom: 20px;
+}
+h2{
+	padding-bottom: 18px;
+	color: #000;
+	font-size: 22px;
+}
+h3{
+	padding-bottom: 14px;
+	color: #76797e;
+	font-size: 16px;
+}
+span{
+	color: #76797e;
+	font-size: 12px;
+	line-height: 24px;
+}
+article p a{
+	color: #4c80f0;
+	font-weight: bold;
+}
+article img{
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+/*第二部分的列表项目*/
+article ul{
+	list-style: none;
+	padding-left: 20px;
+}
+/*第三部分的图片*/
+figure{
+	width: 122px;
+	height: 126px;
+	border: 1px solid #dedede;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+figcaption{
+	padding-top: 10px;
+	font-size: 12px;
+	text-align: center;
+}
+figure img{
+	width: 102px;
+	height: 82px;
+	padding: 10px;
+}
+figure:last-child{
+	margin-bottom: 0px;
+}
+/*第四部分的排名及表格*/
+article ol{
+	padding-bottom: 18px;
+	padding-left: 50px;
+}
+table{ 
+	width: 1198px;
+	font-size: 14px;
+	text-align: left;
+	border-collapse: collapse;/*为表格设置合并边框模型*/
+}
+table a{
+	color: #8056a4;
+}
+thead{
+	background-color: #333333;
+	color: #fff;
+}
+th,td{
+	height: 24px;
+	padding-left: 6px;
+	border: 1px solid #dedede;
+}
+tfoot{
+	background-color: #dedede;
+	font-weight: bold;
+}
+/*aside*/
+aside{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+h4{
+	padding-left: 10px;
+	border-left: 3px solid #dedede;
+	font-size: 16px;
+	line-height: 36px;
+}
+aside div{
+	width: 100%;
+	padding-bottom: 12px;
+}
+div:first-child{
+	padding-top: 14px;
+}
+aside span{
+	width: 360px;
+	font-size: 12px;
+	text-align: right;
+	display: inline-block;
+}
+aside p{
+	padding-bottom: 22px;
+	padding-left: 368px;
+	color: #76797e;
+	font-size: 12px;
+}
+textarea{
+	width: 750px;
+	height: 90px;
+	vertical-align: top;
+}
+[type='submit']{
+	width: 1176px;
+	height: 38px;
+	border: 2px solid #dedede;
+	border-radius: 10px;
+	background-color: #3355d0;
+	color: #fff;
+	font-size: 16px;
+	font-family: "SimHei";
+}
+/*footer*/
+footer{
+	height: 60px;
+	background-color: #000;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 60px;
+}
