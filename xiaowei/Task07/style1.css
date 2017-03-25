@@ -1,0 +1,430 @@
+/*reset*/
+body,h1,h2,h3,h4,h5,h6,p,ul,form,figure{
+	margin: 0;
+}
+ul,input{
+	padding: 0;
+}
+input,button,textarea{
+	border-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*layout*/
+body{
+	min-width: 1280px;
+	background-color: #fff;
+}
+header{
+	height: 56px;
+}
+article{
+	display: flex;
+	flex-flow: row wrap;
+}
+section{
+	flex: 0 1 1280px;
+	margin: 0 auto;
+}
+footer{
+	width: 100%;
+	height: 416px;
+}
+/*header*/
+header>img{
+	position: relative;
+	top: 10px;left: 54px;
+}
+header>span{
+	margin-left: 50px;
+	font: 21px "SimHei";
+	line-height: 56px;
+	color: #393a3a;
+}
+header>nav{
+	float: right;
+	width: 45%;
+}
+nav>ul{
+	display: flex;
+	justify-content: space-around;
+}
+nav a{
+	display: block;
+	padding: 0 12px;
+	font: 14px "Microsoft YaHei";
+	line-height: 53px;
+	color: #acaeb2;
+}
+nav a:hover{
+	color: #e74f4d; 
+	border-bottom: 3px solid #e74f4d;
+}
+nav img{
+	margin-right: 6px;
+}
+/*article*/
+#main-img{
+	height: 691px;
+	font-family: "Microsoft YaHei";
+	color: #fff;
+	background: url(../七实现常见的技术产品官网的页面架构及样式布局/task_1_7_5.png) no-repeat;
+}
+#main-img>h1{
+	margin-top: 218px;
+	margin-left: 110px;
+	font-size: 60px;
+}
+#main-img>p{
+	margin-top: 10px;
+	margin-left: 116px;
+	font-size: 21px;
+}
+#main-img>button{
+	width: 332px;
+	height: 64px;
+	margin-top: 60px;
+	margin-left: 116px;
+	font: 30px "Microsoft YaHei";
+	color: #fff;
+	background-color: #e74f4d;
+}
+#icon-list{
+	display: flex;
+	justify-content: space-around;
+	height: 250px;
+	font: 14px "SimHei";
+	line-height: 18px;
+	color: #767777;
+}
+#icon-list>figure{
+	flex-basis: 25%;
+	text-align: center;
+}
+#icon-list img{
+	margin: 46px auto; 
+}
+#icon-list figcaption{
+	height: 54px;
+}
+.b-l{
+	border-left: 3px solid #aaaaaa;
+}
+#l-logo{
+	height: 360px;
+	background-color: #ededec;
+	text-align: center;
+}
+#l-logo>img{
+	margin-top: 86px;
+}
+#l-logo>h1{
+	margin-top: 42px;
+	font: 53.59px "SimHei";
+	color: #323333;
+	opacity: 0.5;
+}
+#find-information{
+	height: 341px;
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	background: url(../七实现常见的技术产品官网的页面架构及样式布局/task_1_7_26.png) no-repeat;
+}
+#find-information>h2{
+	margin-top: 46px;
+	font-size: 21px;
+	color: #ffffff;
+}
+#find-information>p{
+	margin-top: 30px;
+	font-size: 12px;
+	color: #ffffff;
+}
+#find-information>form{
+	margin-top: 50px;
+}
+#find-information select,#find-information input{
+	width: 238px;
+	height: 38px;
+}
+#find-information select{
+	padding-left: 10px;
+	border: 1px solid #aaaaaa;
+	margin-right: 30px;
+	font-size: 12px;
+	color: #a8aaaa;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: url(../七实现常见的技术产品官网的页面架构及样式布局/task_1_7_12.png) no-repeat 97% 50%;	
+	background-color: #fff;
+}
+#find-information input{
+	padding-left: 24px;
+	font: 14px "Microsoft YaHei";
+	letter-spacing: 24px;
+	color: #fff;
+	background-color: #be4e48;
+}
+#cities-activities{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 605px;
+	font-family: "Microsoft YaHei";
+	text-align: center;
+}
+#cities-activities img{
+	padding: 12px 8px;
+	border: 1px solid #dadada;
+}
+#cities-activities h3{
+	font-size: 14px;
+	line-height: 32px;
+	opacity: 0.9;
+}
+#cities-activities p{
+	padding-bottom: 8px;
+	font-size: 12px;
+	color: #aaaaaa;
+}
+#cities-activities h4{
+	padding-left: 22px;
+	font-size: 22px;
+	line-height: 32px;
+	opacity: 0.7;
+	letter-spacing: 32px;
+}
+#new-world{
+	display: flex;	
+}
+.new-world-img{
+	flex: 0 0 850px;
+	height: 566px;
+	background: url(../七实现常见的技术产品官网的页面架构及样式布局/task_1_7_19.png) no-repeat;
+	font-family: "Microsoft YaHei";
+	color: #fff;
+	text-align: center;
+}
+.new-world-img>h2{
+	margin-top: 122px; 
+	font-size: 50px;
+}
+.new-world-img>h3{
+	margin-top: -42px;
+	margin-bottom: -10px;
+	font-size: 158px;
+}
+.new-world-img>h4,.new-world-img>time{
+	margin-bottom: 14px;
+	font-size: 22px;
+}
+.new-world-passage{
+	text-align: center;
+}
+.new-world-passage>h5{
+	margin-top: 160px;
+	margin-bottom: 20px;
+	font: 18px "Microsoft YaHei";
+	font-weight: bold;
+	letter-spacing: 2px;
+	opacity: 0.8;
+}
+.new-world-passage span{
+	color: #e74f4d;
+}
+.new-world-passage>p{
+	margin: 0 70px 40px;
+	font: 12px "SimSun";
+	color: #aaaaaa;
+	line-height: 30px;
+	opacity: 0.8;
+	text-align: left;
+}
+.new-world-passage>button{
+	width: 106px;
+	height: 34px;
+	border: 1px solid #e4666a;
+	font: 12px "Microsoft YaHei";
+	color: #e25c60;
+	background-color: #fff;
+}
+#more{
+	display: flex;
+	font: 18px  "SimHei";
+	text-align: center;
+}
+#more>.red{
+	width: 425px;
+	height: 521px;
+	color: #fff;
+	background-color: #e74f4d;
+}
+#more>.white{
+	width: 425px;
+	height: 521px;
+	color: #323333;
+	background-color: #fff;
+}
+#more h3{
+	margin-top: 170px;
+	margin-bottom: 46px;
+	line-height: 30px;
+}
+#more button{
+	width: 170px;
+	height: 42px;
+	font: 21px "SimHei";
+}
+.red>button{
+	border: 1px solid #fff;
+	background-color: #e74f4d;
+	color: #fff;
+}
+.white>button{
+	border: 1px solid #e74f4d;
+	background-color: #fff;
+	color: #e74f4d;
+}
+#more>.picture{
+	width: 430px;
+	height: 521px;
+	background: url(../七实现常见的技术产品官网的页面架构及样式布局/task_1_7_20.png);
+}
+#volunteer{
+	height: 749px;
+}
+#volunteer>.introduce-1{
+	height: 302px;
+	text-align: center;
+}
+.introduce-1>h5{
+	padding-top: 110px;
+	padding-bottom: 16px;
+	font: 21px "SimHei";
+	line-height: 30px;
+	color: #323333;
+}
+.introduce-1>p{
+	font: 12px "Microsoft YaHei";
+	line-height: 18px;
+	color: #aaaaaa;
+}
+#volunteer>.b-div{
+	display: flex;
+	padding: 0 138px;
+}
+.b-div>.introduce-2{
+	width: 294px;
+	margin-right: 74px;
+	text-align: left;
+}
+.introduce-2>img{
+	position: relative;
+	top: 0;left: 248px;
+}
+.introduce-2>h6{
+	font: 14px "SimHei";
+	opacity: 0.8;
+}
+.introduce-2>p,.introduce-2>span{
+	font: 12px "SimSun";
+	line-height: 21px;
+	color: #aaaaaa;
+}
+.introduce-2>p{
+	padding-top: 20px;
+}
+.introduce-2>span{
+	position: relative;
+	top: 0;left: 248px;
+	display: inline-block;
+	padding-bottom: 28px;
+}
+.b-div>form{
+	width: 640px;
+	text-align: left;
+}
+.b-div input{
+	width: 306px;
+	height: 40px;
+	margin-right: 10px;
+	margin-bottom: 14px;
+	background-color: #ececee;
+}
+.b-div textarea{
+	width: 612px;
+	height: 120px;
+	padding-top: 10px;
+	padding-left: 16px;
+	font: 12px "SimSun";
+	color: #aaaaaa;
+	background: #000;
+	background-color: #ececee;
+}
+.b-div button{
+	width: 628px;
+	height: 40px;
+	margin-top: 14px;
+	font: 14px "SimHei";
+	background-color: #ececee;
+}
+/*footer*/
+footer>.e-mail{
+	height: 358px;
+	text-align: center;
+	color: #fff;
+	background-color: #32353e;
+}
+footer h5{
+	padding-top: 78px;
+	font: 21px "SimHei";
+	line-height: 48px;
+	opacity: 0.9;
+}
+footer p{
+	font: 12px "SimSun";
+	line-height: 18px;
+	opacity: 0.8;
+}
+footer input{
+	margin: 28px auto;
+	height: 42px;
+}
+.w-432{
+	width: 432px;
+}
+.w-78{
+	width: 78px;
+}
+.p-l{
+	padding-left: 20px;
+}
+footer>.footer{
+	line-height: 58px;
+	background-color: #2f3038;
+}
+footer span{
+	position: relative;
+	top: 0;left: 8%;
+	font: 12px "SimSun";
+	color: #fff;
+}
+footer a{
+	height: 33px;
+	float: right;
+	padding: 25px 5% 0;
+	display: inline-block;
+	font: 12px "SimSun";
+	color: #fff;
+}
+footer a:hover{
+	background-color: #026ed3;
+}
