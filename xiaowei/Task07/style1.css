@@ -75,7 +75,7 @@ nav img{
 	height: 691px;
 	font-family: "Microsoft YaHei";
 	color: #fff;
-	background: url(../七实现常见的技术产品官网的页面架构及样式布局/task_1_7_5.png) no-repeat;
+	background: url(task_1_7_5.png) no-repeat;
 }
 #main-img>h1{
 	margin-top: 218px;
@@ -135,7 +135,7 @@ nav img{
 	height: 341px;
 	font-family: "Microsoft YaHei";
 	text-align: center;
-	background: url(../七实现常见的技术产品官网的页面架构及样式布局/task_1_7_26.png) no-repeat;
+	background: url(task_1_7_26.png) no-repeat;
 }
 #find-information>h2{
 	margin-top: 46px;
@@ -163,7 +163,7 @@ nav img{
 	appearance: none;
 	-moz-appearance: none;
 	-webkit-appearance: none;
-	background: url(../七实现常见的技术产品官网的页面架构及样式布局/task_1_7_12.png) no-repeat 97% 50%;	
+	background: url(task_1_7_12.png) no-repeat 97% 50%;	
 	background-color: #fff;
 }
 #find-information input{
@@ -208,7 +208,7 @@ nav img{
 .new-world-img{
 	flex: 0 0 850px;
 	height: 566px;
-	background: url(../七实现常见的技术产品官网的页面架构及样式布局/task_1_7_19.png) no-repeat;
+	background: url(task_1_7_19.png) no-repeat;
 	font-family: "Microsoft YaHei";
 	color: #fff;
 	text-align: center;
@@ -296,7 +296,7 @@ nav img{
 #more>.picture{
 	width: 430px;
 	height: 521px;
-	background: url(../七实现常见的技术产品官网的页面架构及样式布局/task_1_7_20.png);
+	background: url(task_1_7_20.png);
 }
 #volunteer{
 	height: 749px;
